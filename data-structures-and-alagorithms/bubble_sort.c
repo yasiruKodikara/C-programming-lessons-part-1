@@ -15,9 +15,10 @@ void bubble_sort(int* arr,int length) {
 }
 
 void main(){
-    int arr[10] = {12,23,34,56,23,45,89,23,34,15};
-    bubble_sort(arr,10);
-    for (int i;i<10;i++){
+    int arr[15] = {34,67,78,78,67,45,12,1,-2,-456,0,68,90,89,69};
+    int length = sizeof(arr)/sizeof(arr[0]);
+    bubble_sort(arr,length);
+    for (int i;i<length;i++){
     printf("%d ",arr[i]);
     }
 
