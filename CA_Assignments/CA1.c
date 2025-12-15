@@ -14,14 +14,14 @@ void main() {
     //Reading table A
     for (int i =0; i<AXn;++i) {
         for (int j=0; j<Am;++j) {
-            printf("Enter value for table A %d th row and %d th column",i,j);
+            printf("Enter value for table A, %d th row and %d th column:",i,j);
             scanf("%d",&A[i][j]);
         }
     }
 
     //Reading list X
     for (int i=0;i<AXn;++i) {
-        printf("Enter value for list X %d th index",i);
+        printf("Enter value for list X, %d th index",i);
         scanf("%d",&X[i]);
     }
 
