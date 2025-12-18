@@ -4,7 +4,7 @@
 
 void main() {
     int A[AXn][Am];
-    int X[AXn],tot=0;
+    int X[AXn];
 
     int Y[Am];
     for (int i=0 ; i<AXn;++i) {
