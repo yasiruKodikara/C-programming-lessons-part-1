@@ -1,9 +1,24 @@
 #include <stdio.h>
 
-void main() {
-    int *x;
-    int y = 80;
-    x = &y;
-    printf("memory address: %d\n",x);
-    printf("value y :%d\n",*x);
+void update(int *a,int *b) {
+    // Complete this function
+    int aa = *a + *b;
+    int bb = *a - *b;
+    if(bb<0){
+        bb = bb*(-1);
+    }else{
+        bb = bb;
+    }
+    printf("%d\n%d", aa, bb);
+}
+
+int main() {
+    int a, b;
+    int *pa = &a, *pb = &b;
+
+    scanf("%d %d", &a, &b);
+    update(pa, pb);
+
+
+    return 0;
 }
