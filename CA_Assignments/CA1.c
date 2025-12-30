@@ -1,6 +1,6 @@
 #include <stdio.h>
-#define n 3
-#define m 3
+#define n 8
+#define m 6
 
 void main() {
     int A[m][n];
