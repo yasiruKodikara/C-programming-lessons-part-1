@@ -1,9 +1,12 @@
 #include<stdio.h>
-#define i 0.02
+
 
 void main() {
-    float P,monthlyPay,interest=0,totalInterest=0;
+    float P,monthlyPay,interest=0,totalInterest=0,i=0;
     int c=0,A;
+
+    printf("Enter the Interest:\n");
+    scanf("%f",&i);
 
     printf("Enter the Loan amount:\n");
     scanf("%f",&P);
