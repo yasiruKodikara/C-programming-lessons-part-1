@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() {
+    int x;
+
+    printf("Enter depth:");
+    scanf("%d",&x);
+
+    for (int i = 1;i<=x;i++) {
+        for (int j = 1;j<=i;j++) {
+            printf("%d",i);
+        }
+        printf("\n");
+
+    }
+    return 0;
+}
