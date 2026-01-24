@@ -12,7 +12,7 @@ int main() {
 //there are few logical errors
 
 
-    for (int i=ROW-1,j=0;i>=0,j<ROW;j++,i--) {
+    for (int i=ROW-1,j=0;j<ROW;j++,i--) {
         prim_tot+=arr1[j][j];
         sec_tot+=arr1[i][i];
 
@@ -30,8 +30,11 @@ int main() {
         // printf("row total = %d\n",row_tot);
 
         if (j==ROW-1) {
-            prim_h=prim_tot;
-            sec_h=sec_tot;
+            if (prim_tot==sec_tot) {
+                printf("magic");
+            }else {
+                printf("not a magic");
+            }
             break;
         }
         col_tot=0,row_tot=0;
