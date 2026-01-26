@@ -15,6 +15,8 @@ struct book {
     struct date date;
 
 };
+
+//optimize the program by reducing number of loops to 1 loop
 int main() {
     struct book Books[len]={
         {"F. Scott Fitzgerald", "The Great Gatsby", "Scribner", 5, 15, {4, 1925}},
