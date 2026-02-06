@@ -1,8 +1,23 @@
+#include<stdio.h>
+#include<string.h>
 
-#include <stdio.h>
 void main() {
-    printf("%f%.3f",4.5678,4.5678);
-    int arr[]={1,2,3,4,5,6,7,8,9,10};
-    int len = sizeof(arr);
-    printf("\n%d",len);
+
+    int num;
+    scanf("%d",&num);
+
+    char t = (num>0)?'y':'n';
+
+    switch (t) {
+        case 'y':
+            printf("Positive");
+            break;
+        case 'n':
+            printf("Negative");
+            break;
+        default:
+            printf("zero");
+            break;
+    }
+
 }
