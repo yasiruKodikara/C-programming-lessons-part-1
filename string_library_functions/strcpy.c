@@ -18,4 +18,6 @@ void main() {
     printf("\n%d",strcmp(s1,s3));
     printf("\n%d",strcmp(s1,s1));
 
+
+
 }

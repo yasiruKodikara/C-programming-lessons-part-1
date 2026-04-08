@@ -19,6 +19,7 @@ int main() {
 
     }
 
+
     //calculating the sum
     r_sum = c1[0].real + c1[1].real;
     im_sum = c1[0].img + c1[1].img;
